@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+    <header class="flex items-center justify-between p-4 bg-white shadow-md">
+        <h1 class="text-2xl font-bold">Pet&Style</h1>
+        <nav>
+            <ul class="flex gap-4">
+                <li><a href="#produtos" class="text-gray-700 hover:text-pink-600">Produtos</a></li>
+                <li><a href="#contato" class="text-gray-700 hover:text-pink-600">Contato</a></li>
+                <li><a href="#depoimentos" class="text-gray-700 hover:text-pink-600">Depoimentos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="text-center p-8 bg-pink-100">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Estilo e conforto para seu Pet</h2>
+        <p class="text-lg mb-6">Produtos exclusivos que unem design e carinho</p>
+        <img src="https://images.unsplash.com/photo-1758021878156-3589f6807064?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cão estiloso" class="mx-auto rounded-2xl shadow-lg max-h-80 object-cover">
+    </section>
+
+    <section id="produtos" class="p-8">
+        <h3 class="text-2xl font-semibold mb-6 text-center">Nossos Produtos</h3>
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="border rounded-xl p-4 shadow hover:shadow-lg">
+                <img src="https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Caminha pet" class="rounded-lg mb-3">
+                <h4 class="font-bold text-lg mb-2">Caminha Estilosa</h4>
+                <p class="text-sm text-gray-600">Conforto e elegância para seu pet.</p>
+                <span class="block mt-2 font-semibold text-pink-600">R$120</span>
+        </div>
+
+                <div class="border rounded-xl p-4 shadow hover:shadow-lg">
+                    <img src="https://plus.unsplash.com/premium_photo-1668918112517-8ebe0f3eb1f4?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Brinquedo pet" class="rounded-lg mb-3">
+                    <h4 class="font-bold">Brinquedo Divertido</h4>
+                    <p class="text-sm text-gray-600">Diversão garantida para seu pet.</p>
+                    <span class="block mt-2 font-semibold text-pink-600">R$45</span>
+            </div>
+
+            <div class="border rounded-xl p-4 shadow hover:shadow-lg">
+                <img src="https://plus.unsplash.com/premium_photo-1692392181661-96c4b34759db?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coleira pet" class="rounded-lg mb-3">
+                <h4 class="font-bold">Coleira Fashion</h4>
+                <p class="text-sm text-gray-600">Estilo e segurança para passeios.</p>
+                <span class="block mt-2 font-semibold text-pink-600">R$80</span>
+            </div>
+
+            <div class="border rounded-xl p-4 shadow hover:shadow-lg">
+                <img src="https://images.unsplash.com/photo-1576078094990-536fdfb303bc?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Roupinha pet" class="rounded-lg mb-3">
+                <h4 class="font-bold">Roupinha Charmosa</h4>
+                <p class="text-sm text-gray-600">Moda e conforto para todas as estações.</p>
+                <span class="block mt-2 font-semibold text-pink-600">R$70</span>
+
+            </div>
+    </section>
+
+    <section id="depoimentos" class="p-8 bg-pink-50 text-center">
+        <h3 class="text-2xl font-semibold mb-6">O que nossos clientes dizem</h3>
+        <div class="flex flex-col gap-4 md:flex-row md:justify-center">
+            <blockquote class="p-4 bg-white rounded-xl shadow">
+                "A Caminha é super confortável e meu cachorro adora!" - Ana, SP
+            </blockquote>
+             <blockquote class="p-4 bg-white rounded-xl shadow">
+                "Meu cachorro adorou o brinquedo, não larga mais." - Carlos, RJ
+             </blockquote>
+                <blockquote class="p-4 bg-white rounded-xl shadow">
+                    "Atendimento excelente e entrega rápida." - Júlia, MG
+                    </blockquote>
+        </div>
+    </section>
+
+    <section id="contato" class="p-8">
+  <h3 class="text-2xl font-semibold mb-6 text-center">Entre em Contato</h3>
+  <p class="text-center mb-4">Email: contato@petstyle.com | Tel: (11) 99999-9999</p>
+  
+  <form class="max-w-md mx-auto flex flex-col gap-4">
+    <input type="text" placeholder="Seu nome" class="border p-2 rounded">
+    <input type="email" placeholder="Seu e-mail" class="border p-2 rounded">
+    <textarea placeholder="Sua mensagem" class="border p-2 rounded"></textarea>
+    <button type="submit" class="bg-pink-500 text-white p-2 rounded hover:bg-pink-600">
+      Enviar
+    </button>
+  </form>
+</section>
+
+    <footer class="text-center p-4 bg-white shadow-md mt-8">
+        &copy; 2025 Pet&Style. Todos os direitos reservados.
+    </footer>
+    
+</body>
+</html>
